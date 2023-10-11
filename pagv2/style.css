@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Tilt+Warp&display=swap');
+@import url('AlteHaasGroteskRegular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@font-face{
+    font-family: "Coco-Sharp-Extrabold-trial";
+    src:url('Coco-Sharp-Extrabold-trial.ttf') format('truetype');
+}
+
+body{
+    background: rgb(241,241,241);
+    background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(210,210,210,1) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+header{
+    position: sticky;
+    top:0;
+}
+
+nav{
+    position:sticky;
+    background-color: rgb(17, 17, 17);
+    height: 4.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+.redes{
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0.01em;
+}
+
+#redesalejar{
+    margin-left: 2.4em;
+}
+
+#banner{
+    width: 6.6em;
+}
+
+ul{
+    list-style-type:none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin: 0.18em;
+}
+
+.items{
+    color: white;
+    text-decoration: none;
+    display: inline-block;    
+}
+.items:hover{
+    color: rgb(235, 167, 80);
+}
+.items:visited {
+    text-decoration: none;
+}
+
+.fondodescubre{
+    background-color:black;
+}
+
+footer{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    bottom: 0;
+}
+
+#pie{
+    color: rgb(134, 134, 134);
+    font-family: 'Heebo', sans-serif;;
+    font-size: 0.7em;
+}
+
+.presentacioninicio{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 24em;
+    font-size: 1.5em;
+    background-image:url(optimized.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.presentacioninicio label{
+    color: white;
+    font-family:'Coco-Sharp-Extrabold-trial', sans-serif;
+    font-size: 3.5em;
+}
+
+#bajo{
+    margin-bottom: 0.2em;
+}
+
+.presentacioninicio a{
+    color: white;
+    font-family: 'Tilt Warp', sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+
+.presentacioninicio a:hover{
+    color: rgb(235, 167, 80);
+    text-shadow:1px 1px black;
+    cursor: pointer;
+}
+
+.presentacioninicio a:visited{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fondoayudartebajo{
+    height: 100%;
+    width: 100%;
+    background: rgb(241,241,241);
+    background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(210,210,210,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.fondoayudartealto{
+    background: white;
+    border-radius: 1.1em;
+    box-shadow: 1px 1px rgb(216, 216, 216);
+    margin-top: 2.5em;
+    margin-bottom: 2.3em;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding: 2.5em;
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+    font-family: 'Heebo', sans-serif; 
+}
+
+.fondoserviciobajo{
+    height: 100%;
+    width: 100%;
+    background: rgb(241,241,241);
+    background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(210,210,210,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.fondoservicioalto{
+    background: white;
+    border-radius: 1.1em;
+    box-shadow: 1px 1px rgb(216, 216, 216);
+    margin-top: 2.5em;
+    margin-bottom: 2.3em;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding: 2.5em;
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+    font-family: 'Heebo', sans-serif; 
+}
+
+.grises{
+    color: rgb(110, 110, 110);
+}
+
+.tituloservicios h3{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.1em;
+}
+
+.servicios h3{
+    background-color: rgb(17, 17, 17);
+    color:white;
+    font-size: 100%;
+    border-radius: 0.3em;
+    display: inline-block;
+    padding: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin-bottom: 0.15em;
+    
+}
+
+.fotoservicio{
+    width: 12.5em;
+    margin: 0.8em;
+    margin-left: 2em;
+    margin-top: 1.1em;
+    border-radius: 0.3em;
+}
+
+.textoyfoto{
+    display: flex;
+}
+
+#mapa{
+    width:80vw; 
+    border-radius: 0.3em;
+    margin-bottom: 1.1em;
+    margin-top: 1.1em;
+}
+
+#evolucion{
+    width: 40em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.contanosform{
+    color: rgb(246, 87, 13);
+    text-decoration: none;
+}
+.contanosform:hover{
+    color: rgb(246, 196, 13);
+    text-decoration: none;
+}
+.contanosform:visited{
+    text-decoration: none;
+}
+
+.titulosform{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.nombres input{
+    height: 2em;
+    padding-left: 0.2em;
+    width: 20em;
+}
+
+.nombresform1{
+    margin-right: 0.8em;
+    margin-bottom: 1em;
+}
+
+.correo input{
+    width: 98.8%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.telefono input{
+    width: 98.8%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.asunto input{
+    width: 98.8%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+
+.mensaje input{
+    width: 98.8%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.mensaje textarea{
+    resize:none;
+    width: 98.8%;
+    height: 10em;
+    margin-bottom: 1em;
+
+}
+
+
+
+.formulariodatos input{
+    background-color: rgb(246, 246, 246);
+    border:none;
+    border-radius: 4px;
+    padding-left: 1em;
+}
+
+.formulariodatos input:hover{
+    outline-color: rgb(246, 87, 13);
+    outline-width: 1px;
+}
+
+.formulariodatos input:focus{
+    outline-color: rgb(246, 87, 13);
+    outline-width: 1px;
+}
+
+.formulariodatos textarea{
+    outline-color: rgb(246, 87, 13);
+    outline-width: 1px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 4px;
+    padding: 1em;
+    width: 96.8%;
+}
+
+.botonenviar{
+    float:right;
+    background-color: rgb(246, 87, 13);
+    border: none;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px;
+    color: white;
+}
+
+.botonenviar:hover{
+    background-color: rgb(246, 196, 13);   
+    cursor: pointer;
+}
+
+#btnenviar{
+    float:right;
+    background-color: rgb(246, 87, 13);
+    border: none;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px;
+    color: white;
+}
+
+#btnenviar:hover{
+    background-color: rgb(246, 196, 13);   
+    cursor: pointer;
+}
+
+.formulariodatos span{
+    color: rgb(246, 87, 13);
+}
+
+.grisesizq{
+    font-size: 1em;
+    float:right;
+    color: rgb(110, 110, 110);
+}
+
+.check{
+    width: 16em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+}
+
+#fondoserviciobajoform{
+    height: 850px;
+    width: auto;
+    background: rgb(241,241,241);
+    background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(210,210,210,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#check{
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+}
